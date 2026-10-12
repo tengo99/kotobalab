@@ -1,0 +1,31 @@
+.venv/
+venv/
+env/
+__pycache__/
+.pytest_cache/
+.pytest-tmp/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.streamlit/secrets.*
+# Local questions, identities, review notes, history and backups stay private.
+data/**
+!data/.gitkeep
+*.db
+*.db-*
+*.sqlite*
+*.bak
+# Exported files may contain editor identities and review notes.
+*.csv
+*.tsv
+exports/
+logs/
+*.log
+*.jsonl
+*.pem
+*.key
+*.p12
+coverage.xml
+.coverage
+htmlcov/
